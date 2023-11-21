@@ -12,7 +12,7 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 58px;
-  background: url(/img/bg_sub_top.gif) center top/cover no-repeat;
+  background: url(/proj3/img/bg_sub_top.gif) center top/cover no-repeat;
   ;
 }
 .service p {
@@ -98,7 +98,7 @@ max-width:1200px
     font-weight: 700;
     font-size: 30px;
     line-height: 58px;
-    background: url(/img/bg_sub_top.gif) center top/cover no-repeat;
+    background: url(/proj3/img/bg_sub_top.gif) center top/cover no-repeat;
     ;
   }
   .service p {
@@ -191,7 +191,7 @@ max-width:800px
 
     text-align: center;
     padding: 0 20px;
-    background: url(/img/bg_sub_top.gif) center top/cover no-repeat;
+    background: url(/proj3/img/bg_sub_top.gif) center top/cover no-repeat;
     ;
   }
   .service h2 {

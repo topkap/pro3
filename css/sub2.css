@@ -11,7 +11,7 @@ main {
   display: flex;
   flex-flow: column;
 }
-.trailer .txt {}
+
 .trailer .txt h2 {
   font-weight: 700;
   font-size: 40px;
@@ -62,19 +62,19 @@ main {
 
 .visual .swiper1 .slide1 {
   text-indent: -9999px;
-  background: url(/img/sub-slide1.jpg)center no-repeat;
+  background: url(/proj3/img/sub-slide1.jpg)center no-repeat;
   background-size: cover;
   border-radius: 30px;
 }
 .visual .swiper1 .slide2 {
   text-indent: -9999px;
-  background: url(/img/sub-slide2.jpg)center no-repeat;
+  background: url(/proj3/img/sub-slide2.jpg)center no-repeat;
   background-size: cover;
   border-radius: 30px;
 }
 .visual .swiper1 .slide3 {
   text-indent: -9999px;
-  background: url(/img/sub-slide3.jpg)center no-repeat;
+  background: url(/proj3/img/sub-slide3.jpg)center no-repeat;
   background-size: cover;
   border-radius: 30px;
 }
@@ -241,7 +241,6 @@ max-width:800px
     display: flex;
     flex-flow: column;
   }
-  .trailer .txt {}
   .trailer .txt h2 {
     font-weight: 700;
     font-size: 20px;
@@ -292,19 +291,19 @@ max-width:800px
 
   .visual .swiper1 .slide1 {
     text-indent: -9999px;
-    background: url(/img/sub-slide1.jpg)center no-repeat;
+    background: url(/proj3/img/sub-slide1.jpg)center no-repeat;
     background-size: cover;
     border-radius: 30px;
   }
   .visual .swiper1 .slide2 {
     text-indent: -9999px;
-    background: url(/img/sub-slide2.jpg)center no-repeat;
+    background: url(/proj3/img/sub-slide2.jpg)center no-repeat;
     background-size: cover;
     border-radius: 30px;
   }
   .visual .swiper1 .slide3 {
     text-indent: -9999px;
-    background: url(/img/sub-slide3.jpg)center no-repeat;
+    background: url(/proj3/img/sub-slide3.jpg)center no-repeat;
     background-size: cover;
     border-radius: 30px;
   }

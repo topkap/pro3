@@ -1,6 +1,5 @@
 @charset "UFT - 8";
 
-.all-map {}
 .all-map h2 {
   text-indent: -9999px;
 }
@@ -65,7 +64,7 @@
 .map-pos .map-pos-list .map-list:hover ul {
   display: block;
 }
-.map-pos .map-pos-list ul li {}
+
 .map-pos .map-pos-list .pos2 {
   font-weight: 700;
   border: 1px solid #ebebeb;
@@ -122,7 +121,7 @@ input[type="text"] {
 .map-store {
   padding-top: 30px;
 }
-.map-store ul {}
+
 .map-store ul li {
   padding: 24px;
   transition: 0.3s;
@@ -146,14 +145,12 @@ input[type="text"] {
   align-items: center;
   gap: 4px;
 }
-.map-store .map-store-img .xi-shop {}
+
 .map-store .map-store-img span {
   font-weight: 600;
   font-size: 12px;
   line-height: 30px;
 }
-
-.map-tab-btn {}
 
 .map-re {
   margin: 0 auto;
@@ -189,7 +186,6 @@ input[type="text"] {
 
 @media screen and (max-width:800px) {
 
-  .all-map {}
   .all-map h2 {
     text-indent: -9999px;
   }
@@ -258,7 +254,6 @@ input[type="text"] {
   .map-pos .map-pos-list .map-list:hover ul {
     display: block;
   }
-  .map-pos .map-pos-list ul li {}
   .map-pos .map-pos-list .pos2 {
     font-weight: 700;
     border: 1px solid #ebebeb;
@@ -315,7 +310,6 @@ input[type="text"] {
   .map-store {
     padding-top: 30px;
   }
-  .map-store ul {}
   .map-store ul li {
     padding: 24px;
     transition: 0.3s;
@@ -339,14 +333,11 @@ input[type="text"] {
     align-items: center;
     gap: 4px;
   }
-  .map-store .map-store-img .xi-shop {}
   .map-store .map-store-img span {
     font-weight: 600;
     font-size: 12px;
     line-height: 30px;
   }
-
-  .map-tab-btn {}
 
   .map-re {
     margin: 0 auto;
