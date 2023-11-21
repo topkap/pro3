@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <title>로그인</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="/proj3/img/kyobofavicon.ico">
+
+  <link rel="stylesheet" href="/proj3/css/common.css">
+  <link rel="stylesheet" href="/proj3/css/reset.css">
+  <link rel="stylesheet" href="/proj3/css/layout.css">
+  <link rel="stylesheet" href="/proj3/css/quick.css">
+  <link rel="stylesheet" href="/proj3/css/login.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <script defer src="/proj3/js/quick.js"></script>
+</head>
+
+<body>
+  <div class="wrap">
+    <header class="header" id="header">
+      <div class="login">
+        <ul>
+          <li><a href="/proj3/sub/login.html">로그인</a></li>
+          <li><a href="/proj3/sub/login.html">회원가입</a></li>
+          <li><a href="/proj3/sub/login.html">처음 오셨나요</a></li>
+        </ul>
+      </div>
+      <div class="inner">
+        <h1 class="logo"><a href="/proj3/index.html"><img src="/proj3/img/logo.png" alt="로고"></a></h1>
+        <div class="gnb">
+          <ul>
+            <li class="depth1"><a href="/proj3/sub/sub1.html">문화</a>
+              <ul class="depth2">
+                <li><a href="/proj3/sub/sub1.html">STEAM</a></li>
+                <li><a href="/proj3/sub/sub1.html">영상CAST</a></li>
+                <li><a href="/proj3/sub/sub1.html">Camping</a></li>
+                <li><a href="/proj3/sub/sub1.html">공감육아</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="/proj3/sub/sub2.html">독서</a>
+              <ul class="depth2">
+                <li><a href="/proj3/sub/sub2.html">전자도서관</a></li>
+                <li><a href="/proj3/sub/sub2.html">위클리북인포</a></li>
+                <li><a href="/proj3/sub/sub2.html">북트레일러</a></li>
+                <li><a href="/proj3/sub/sub2.html">마음이 자라는 책</a></li>
+                <li><a href="/proj3/sub/sub2.html">북칼럼</a></li>
+              </ul>
+            </li>
+            <li class="depth1"><a href="/proj3/sub/sub3.html">체험학습</a>
+              <ul class="depth2">
+                <li><a href="/proj3/sub/sub3.html">가족체험</a></li>
+                <li><a href="/proj3/sub/sub3.html">어린이체험</a></li>
+                <li><a href="/proj3/sub/sub3.html">체험On-Air</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="mobile">
+          <button id="bttn">&#9776;</button>
+          <nav id="nav">
+            <ul>
+              <li class="mobile-depth1"><a href="/proj3/sub/sub1.html">문화</a>
+                <ul class="mobile-depth2">
+                  <li><a href="/proj3/sub/sub1.html">STEAM</a></li>
+                  <li><a href="/proj3/sub/sub1.html">영상CAST</a></li>
+                  <li><a href="/proj3/sub/sub1.html">Camping</a></li>
+                  <li><a href="/proj3/sub/sub1.html">공감육아</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="/proj3/sub/sub2.html">독서</a>
+                <ul class="mobile-depth2">
+                  <li><a href="/proj3/sub/sub2.html">전자도서관</a></li>
+                  <li><a href="/proj3/sub/sub2.html">위클리북인포</a></li>
+                  <li><a href="/proj3/sub/sub2.html">북트레일러</a></li>
+                  <li><a href="/proj3/sub/sub2.html">마음이 자라는 책</a></li>
+                  <li><a href="/proj3/sub/sub2.html">북칼럼</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="/proj3/sub/sub3.html">체험학습</a>
+                <ul class="mobile-depth2">
+                  <li><a href="/proj3/sub/sub3.html">가족체험</a></li>
+                  <li><a href="/proj3/sub/sub3.html">어린이체험</a></li>
+                  <li><a href="/proj3/sub/sub3.html">체험On-Air</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="/proj3/sub/login.html">로그인</a>
+                <ul class="mobile-depth2">
+                  <li><a href="/proj3/sub/login.html">로그인</a></li>
+                  <li><a href="/proj3/sub/login.html">회원가입</a></li>
+                  <li><a href="/proj3/sub/login.html">처음 오셨나요</a></li>
+                </ul>
+              </li>
+              <li class="mobile-depth1"><a href="/proj3/sub/map.html">매장찾기</a>
+                <ul class="mobile-depth2">
+                  <li><a href="/proj3/sub/map.html">매장찾기</a></li>
+                  <li><a href="/proj3/sub/map.html">MY 매장</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="service">
+        <h2>로그인</h2>
+        <p>로그인하시면 <em>교보에듀케어서비스</em>의 다양한 서비스를 이용할 수 있습니다.</p>
+        <form>
+          <div id="login_input">
+            <input type="text" autofocus placeholder="아이디 입력">
+            <input type="password" placeholder="비밀번호 입력">
+          </div>
+          <fieldset>
+            <label><input type="checkbox" id="auto" name="login">자동 로그인</label>
+            <label><input type="checkbox" id="sace" name="login">아이디 저장</label>
+          </fieldset>
+          <div id="login_bttn">
+            <button type="submit" class="order">로그인</button>
+          </div>
+          <ul class="finde">
+            <li>회원가입</li>
+            <li>아이디 찾기</li>
+            <li>비밀번호 찾기</li>
+          </ul>
+        </form>
+      </section>
+    </main>
+    <footer class="footer" id="footer">
+      <div class="inner">
+        <div class="f-menu">
+          <ul>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">청소년보호정책</a></li>
+            <li><a href="#">고객센터</a></li>
+          </ul>
+        </div>
+        <div class="f-bottom">
+          <div class="f-contents">
+            <p>(주)교보문구</p>
+            <ul>
+              <li>대표이사: 안병현, 김상훈</li>
+              <li>사업자등록번호: 102-81-11670</li>
+              <li>서울특별시 종로구 종로 1 (03154) 에듀케어 고객센터 : 1588-1078</li>
+            </ul>
+            <p class="f-contents-addr">COPYRIGHT(C) KYOBO BOOK CENTRE ALL RIGHTS RESERVED.</p>
+          </div>
+          <div class="f-sns">
+            <ul>
+              <li class="xi-google-play"></li>
+              <li class="xi-apple"></li>
+              <li class="xi-instagram"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+
+</html>

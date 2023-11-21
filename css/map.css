@@ -1,0 +1,375 @@
+@charset "UFT - 8";
+
+.all-map {}
+.all-map h2 {
+  text-indent: -9999px;
+}
+
+.map {
+  /* display: none; */
+  height: 1080px;
+  width: 100%;
+  z-index: 1;
+}
+
+.map-tab {
+  padding-top: 118px;
+  position: fixed;
+  width: 420px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #aeaeae;
+  z-index: 2;
+}
+.map-sch {
+  padding: 24px;
+}
+.map-pos {
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 30px;
+}
+.map-pos .map-pos-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.map-pos .map-pos-list a {
+  font-weight: 700;
+  padding: 8px 16px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.map-pos .map-pos-list .map-list {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+}
+.map-pos .map-pos-list ul {
+  display: none;
+  position: absolute;
+  top: 180px;
+  line-height: 40px;
+  background-color: #fff;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  padding: 8px 16px;
+  width: 39%;
+}
+.map-pos .map-pos-list .map-list:hover ul {
+  display: block;
+}
+.map-pos .map-pos-list ul li {}
+.map-pos .map-pos-list .pos2 {
+  font-weight: 700;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  padding: 8px 16px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sch-bar {
+  padding-top: 30px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="text"] {
+  display: block;
+  height: 40px;
+  width: 100%;
+  line-height: 35px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+.map-pos .xi-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #20bcae;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.map-sch button {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #aeaeae;
+  font-size: 14px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.map-sch .hidden {
+  display: none;
+}
+.map-store {
+  padding-top: 30px;
+}
+.map-store ul {}
+.map-store ul li {
+  padding: 24px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.map-store ul li:hover {
+  background-color: #f1f2f3;
+}
+.map-store h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+}
+.map-store p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 30px;
+}
+.map-store .map-store-img {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.map-store .map-store-img .xi-shop {}
+.map-store .map-store-img span {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.map-tab-btn {}
+
+.map-re {
+  margin: 0 auto;
+  font-size: 14px;
+}
+.map-re a {
+  position: absolute;
+  top: 95vh;
+  overflow: hidden;
+  padding: 8px 24px;
+  z-index: 10000;
+  display: flex;
+  gap: 4px;
+  background-color: #20bcae;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  height: 40px;
+  align-items: center;
+  cursor: pointer;
+  right: 50%;
+}
+.map-re .xi-refresh {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+
+
+
+/**********
+ max-width:800px 
+ **********/
+
+@media screen and (max-width:800px) {
+
+  .all-map {}
+  .all-map h2 {
+    text-indent: -9999px;
+  }
+
+  .map {
+    /* display: none; */
+    height: 1080px;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .map-tab {
+    padding-top: 50px;
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #aeaeae;
+    z-index: 2;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+  }
+  .map-sch {
+    padding: 24px;
+  }
+  .map-pos {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 30px;
+  }
+  .map-pos .map-pos-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .map-pos .map-pos-list a {
+    font-weight: 700;
+    padding: 8px 16px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .map-pos .map-pos-list .map-list {
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+  }
+  .map-pos .map-pos-list ul {
+    display: none;
+    position: absolute;
+    top: 180px;
+    line-height: 40px;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 8px 16px;
+    width: 39%;
+  }
+  .map-pos .map-pos-list .map-list:hover ul {
+    display: block;
+  }
+  .map-pos .map-pos-list ul li {}
+  .map-pos .map-pos-list .pos2 {
+    font-weight: 700;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 8px 16px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .sch-bar {
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 35px;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+  .map-pos .xi-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #20bcae;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .map-sch button {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #aeaeae;
+    font-size: 14px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .map-sch .hidden {
+    display: none;
+  }
+  .map-store {
+    padding-top: 30px;
+  }
+  .map-store ul {}
+  .map-store ul li {
+    padding: 24px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .map-store ul li:hover {
+    background-color: #f1f2f3;
+  }
+  .map-store h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 36px;
+  }
+  .map-store p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .map-store .map-store-img {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .map-store .map-store-img .xi-shop {}
+  .map-store .map-store-img span {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+  .map-tab-btn {}
+
+  .map-re {
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .map-re a {
+    position: absolute;
+    top: 130px;
+    overflow: hidden;
+    padding: 4px 12px;
+    z-index: 10000;
+    display: flex;
+    gap: 4px;
+    background-color: #20bcae;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    height: 40px;
+    align-items: center;
+    cursor: pointer;
+    right: 210px;
+  }
+  .map-re .xi-refresh {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+}

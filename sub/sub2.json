@@ -1,0 +1,20 @@
+[
+  {
+    "img": "/proj3/img/sub-book1.jpg",
+    "tit": "『할머니』",
+    "name": "피터 헤르틀링 글",
+    "key": "성장, 인성, 가족"
+  },
+  {
+    "img": "/proj3/img/sub-book2.jpg",
+    "tit": "『까마귀 소년』",
+    "name": "야시마 타로 글·그림",
+    "key": "성장, 인성, 친구"
+  },
+  {
+    "img": "/proj3/img/sub-book3.jpg",
+    "tit": "『일곱 번째 노란 벤치』",
+    "name": "은영 글/메 그림",
+    "key": "관계, 상상"
+  }
+]

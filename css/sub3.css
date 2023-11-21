@@ -1,0 +1,392 @@
+@charset "UFT - 8";
+main {
+  background-color: #f9fafb;
+}
+.experience {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 200px 60px 180px;
+  display: flex;
+  flex-flow: column;
+
+}
+.experience h2 {
+  font-weight: 700;
+  font-size: 40px;
+
+}
+.experience .experience-list {
+  padding: 100px 0;
+}
+.experience .experience-list ul {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.experience .experience-list li {
+  display: flex;
+  gap: 22px;
+}
+.experience .experience-list .event {
+  padding-bottom: 30px;
+}
+.experience .experience-list .event a {
+  transition: all 0.3s;
+}
+.experience .experience-list .event a:hover img {
+  transition: 0.3s;
+  overflow: hidden;
+  border: 3px solid #20bcae;
+}
+.experience .experience-list .event img {
+  border-radius: 30px;
+  width: 498px;
+  height: 245px;
+  border: 3px solid transparent;
+}
+.experience .experience-list .event a:hover {
+  color: #20bcae;
+}
+.experience .experience-list .event p {
+  padding-top: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.experience .experience-list .event h3 {
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+button {
+  width: 140px;
+  padding: 20px;
+  border-radius: 90px;
+  background-color: #f1f2f3;
+  border: 1px solid #999;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.experience .hidden {
+  display: none;
+}
+
+.experience .experience-list {
+  padding-top: 100px;
+}
+.experience .experience-list ul {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.experience .experience-list li {
+  display: flex;
+  gap: 22px;
+}
+.experience .experience-list .event {
+  padding-bottom: 30px;
+}
+.experience .experience-list .event a {
+  transition: all 0.3s;
+}
+.experience .experience-list .event a:hover img {
+  transition: 0.3s;
+  overflow: hidden;
+  border: 3px solid #20bcae;
+}
+.experience .experience-list .event img {
+  border-radius: 30px;
+  width: 498px;
+  height: 245px;
+  border: 3px solid transparent;
+}
+.experience .experience-list .event a:hover {
+  color: #20bcae;
+}
+.experience .experience-list .event p {
+  padding-top: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.experience .experience-list .event h3 {
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+/**********
+max-width:1200px
+**********/
+@media screen and (max-width:1200px) {
+  .experience {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 200px 20px 180px;
+    display: flex;
+    flex-flow: column;
+  }
+  .experience h2 {
+    font-weight: 700;
+    font-size: 30px;
+
+  }
+  .experience .experience-list {
+    padding: 100px 0;
+  }
+  .experience .experience-list ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .experience .experience-list li {
+    display: flex;
+    gap: 12px;
+  }
+  .experience .experience-list .event {
+    padding-bottom: 30px;
+  }
+  .experience .experience-list .event a {
+    transition: all 0.3s;
+  }
+  .experience .experience-list .event a:hover img {
+    transition: 0.3s;
+    overflow: hidden;
+    border: 3px solid #20bcae;
+  }
+
+  .experience .experience-list .event img {
+    border-radius: 30px;
+    width: 100%;
+    height: 245px;
+    border: 3px solid transparent;
+  }
+  .experience .experience-list .event a:hover {
+    color: #20bcae;
+  }
+  .experience .experience-list .event p {
+    padding-top: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .experience .experience-list .event h3 {
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  button {
+    width: 140px;
+    padding: 20px;
+    border-radius: 90px;
+    background-color: #f1f2f3;
+    border: 1px solid #999;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  .experience .hidden {
+    display: none;
+  }
+
+  .experience .experience-list {
+    padding-top: 100px;
+  }
+  .experience .experience-list ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .experience .experience-list li {
+    display: flex;
+    gap: 12px;
+  }
+  .experience .experience-list .event {
+    padding-bottom: 30px;
+  }
+  .experience .experience-list .event a {
+    transition: all 0.3s;
+  }
+  .experience .experience-list .event a:hover img {
+    transition: 0.3s;
+    overflow: hidden;
+    border: 3px solid #20bcae;
+  }
+  .experience .experience-list .event img {
+    border-radius: 30px;
+    width: 498px;
+    height: 245px;
+    border: 3px solid transparent;
+  }
+  .experience .experience-list .event a:hover {
+    color: #20bcae;
+  }
+  .experience .experience-list .event p {
+    padding-top: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .experience .experience-list .event h3 {
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********
+max-width:800px
+**********/
+@media screen and (max-width:800px) {
+
+  .experience {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 200px 20px 180px;
+    display: flex;
+    flex-flow: column;
+  }
+  .experience h2 {
+    font-weight: 700;
+    font-size: 20px;
+
+  }
+  .experience .experience-list {
+    padding: 100px 0;
+  }
+  .experience .experience-list ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .experience .experience-list li {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+  }
+  .experience .experience-list .event {
+    padding-bottom: 30px;
+  }
+  .experience .experience-list .event a {
+    transition: all 0.3s;
+  }
+  .experience .experience-list .event a:hover img {
+    transition: 0.3s;
+    overflow: hidden;
+    border: 3px solid #20bcae;
+  }
+
+  .experience .experience-list .event img {
+    border-radius: 30px;
+    width: 100%;
+    height: 245px;
+    border: 3px solid transparent;
+  }
+  .experience .experience-list .event a:hover {
+    color: #20bcae;
+  }
+  .experience .experience-list .event p {
+    padding-top: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .experience .experience-list .event h3 {
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+
+  button {
+    width: 140px;
+    padding: 20px;
+    border-radius: 90px;
+    background-color: #f1f2f3;
+    border: 1px solid #999;
+    font-size: 16px;
+    margin: 0 auto;
+  }
+  .experience .hidden {
+    display: none;
+  }
+
+  .experience .experience-list {
+    padding-top: 100px;
+  }
+  .experience .experience-list ul {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .experience .experience-list li {
+    display: flex;
+    gap: 12px;
+  }
+  .experience .experience-list .event {
+    padding-bottom: 30px;
+  }
+  .experience .experience-list .event a {
+    transition: all 0.3s;
+  }
+  .experience .experience-list .event a:hover img {
+    transition: 0.3s;
+    overflow: hidden;
+    border: 3px solid #20bcae;
+  }
+  .experience .experience-list .event img {
+    border-radius: 30px;
+    width: 498px;
+    height: 245px;
+    border: 3px solid transparent;
+  }
+  .experience .experience-list .event a:hover {
+    color: #20bcae;
+  }
+  .experience .experience-list .event p {
+    padding-top: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    padding-left: 20px;
+  }
+  .experience .experience-list .event h3 {
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+}
