@@ -99,8 +99,6 @@ HEADER - S
 .mobile {
   display: none;
 }
-
-
 /**********
 HEADER - E
 **********/
@@ -110,6 +108,7 @@ HEADER - E
 FOOTER - S
 **********/
 .footer {
+  /* margin-top: 188px; */
   width: 100%;
   padding: 56px 60px;
   background-color: #eaeaea;
@@ -239,6 +238,14 @@ HEADER - S
 HEADER - E
 **********/
 
+
+  /**********
+FOOTER - S
+**********/
+
+  /**********
+FOOTER - S
+**********/
 }
 
 
@@ -282,9 +289,11 @@ HEADER - S
     display: flex;
     display: none;
   }
+
   .mobile {
     display: none;
   }
+
   /**********
 HEADER - E
 **********/

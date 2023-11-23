@@ -11,7 +11,7 @@ main {
   display: flex;
   flex-flow: column;
 }
-
+.trailer .txt {}
 .trailer .txt h2 {
   font-weight: 700;
   font-size: 40px;
@@ -241,6 +241,7 @@ max-width:800px
     display: flex;
     flex-flow: column;
   }
+  .trailer .txt {}
   .trailer .txt h2 {
     font-weight: 700;
     font-size: 20px;
