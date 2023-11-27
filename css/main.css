@@ -28,15 +28,18 @@ MAIN
 }
 .visual .swiper1 .slide1 {
   text-indent: -9999px;
-  background: url(/proj3/img/slide1.jpg)center;
+  background: url(/proj3/img/slide1.jpg)center center no-repeat;
+  background-size: cover;
 }
 .visual .swiper1 .slide2 {
   text-indent: -9999px;
-  background: url(/proj3/img/slide2.jpg)center;
+  background: url(/proj3/img/slide2.jpg)center center no-repeat;
+  background-size: cover;
 }
 .visual .swiper1 .slide3 {
   text-indent: -9999px;
-  background: url(/proj3/img/slide3.png)center;
+  background: url(/proj3/img/slide3.png)center center no-repeat;
+  background-size: cover;
 }
 .visual .swiper1 .swiper-button-next::after {
   position: absolute;
@@ -363,7 +366,6 @@ input[type="text"] {
 .store .store-btn li:hover {
   background-color: #20bcae;
 }
-.store .store-icon {}
 .store .store-icon img {
   width: 250px;
   padding-left: 60px;
@@ -415,8 +417,7 @@ input[type="text"] {
   background-color: #20bcae;
   border-radius: 10px;
 }
-.notice .result {}
-.notice .result ul {}
+
 .notice .result ul li {
   line-height: 36px;
   font-weight: 700;
@@ -429,7 +430,7 @@ input[type="text"] {
 .notice .result ul li:hover {
   color: #20bcae;
 }
-.notice .result ul span {}
+
 
 
 
@@ -688,7 +689,7 @@ max-width:1200px
   .store .store-btn li:nth-child(1) {
     background-color: #20bcae;
   }
-  .store .store-icon {}
+
   .store .store-icon img {
     display: none;
   }
@@ -738,8 +739,7 @@ max-width:1200px
     background-color: #20bcae;
     border-radius: 10px;
   }
-  .notice .result {}
-  .notice .result ul {}
+
   .notice .result ul li {
     line-height: 36px;
     font-weight: 700;
@@ -748,7 +748,7 @@ max-width:1200px
   .notice .result ul li:hover {
     color: #20bcae;
   }
-  .notice .result ul span {}
+
 }
 
 
@@ -1071,7 +1071,7 @@ max-width:800px
   .store .store-btn li:nth-child(4) {
     margin-right: 0;
   }
-  .store .store-icon {}
+
   .store .store-icon img {
     display: none;
   }
@@ -1127,8 +1127,6 @@ max-width:800px
     background-color: #20bcae;
     border-radius: 10px;
   }
-  .notice .result {}
-  .notice .result ul {}
   .notice .result ul li {
     line-height: 36px;
     font-weight: 700;
@@ -1140,5 +1138,5 @@ max-width:800px
   .notice .result ul li:hover {
     color: #20bcae;
   }
-  .notice .result ul span {}
+
 }
