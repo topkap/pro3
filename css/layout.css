@@ -40,11 +40,13 @@ HEADER - S
   padding-top: 28px;
 }
 
+.header .logo {}
 .header .logo img {
   width: 262px;
   height: 48px;
 }
 
+.gnb {}
 .gnb > ul {
   display: flex;
   justify-content: space-around;
@@ -95,10 +97,15 @@ HEADER - S
   background-color: #20bcae;
   color: #fff;
 }
-
+.gnb button {}
 .mobile {
   display: none;
 }
+
+.mobile nav {}
+.mobile .mobile-depth1 {}
+.mobile .mobile-depth2 {}
+.mobile .mobile-depth2 li {}
 /**********
 HEADER - E
 **********/
@@ -229,11 +236,14 @@ HEADER - S
   .gnb .depth1:hover ul {
     display: none;
   }
-
+  .gnb button {}
   .mobile {
     display: none;
   }
-
+  .mobile nav {}
+  .mobile .mobile-depth1 {}
+  .mobile .mobile-depth2 {}
+  .mobile .mobile-depth2 li {}
   /**********
 HEADER - E
 **********/
@@ -290,10 +300,14 @@ HEADER - S
     display: none;
   }
 
+  .gnb button {}
   .mobile {
     display: none;
   }
-
+  .mobile nav {}
+  .mobile .mobile-depth1 {}
+  .mobile .mobile-depth2 {}
+  .mobile .mobile-depth2 li {}
   /**********
 HEADER - E
 **********/
