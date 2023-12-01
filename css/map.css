@@ -247,7 +247,7 @@ input[type="text"] {
   .map-pos .map-pos-list ul {
     display: none;
     position: absolute;
-    top: 180px;
+    top: 112px;
     line-height: 40px;
     background-color: #fff;
     border: 1px solid #ebebeb;
